@@ -58,3 +58,5 @@ sigma221 = 2*G*eps221 + ((2*G*v)/(1-2*v))*(eps111 + eps221)
 print('11',sigma111(ksi1A = 0, ksi2A = -1, x2 = 0,E = 1, v = 0.2).full_simplify())
 print('12',sigma121(ksi1A = 0, ksi2A = -1, x2 = 0,E = 1, v = 0.2).full_simplify())
 print('22',sigma221(ksi1A = 0, ksi2A = -1, x2 = 0,E = 1, v = 0.2).full_simplify())
+
+print()
